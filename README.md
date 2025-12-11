@@ -25,25 +25,25 @@ This module serves both as a **teaching resource** and a **technical demonstrati
 
 ## 📂 Repository Structure
 
-├── notebook/
-│ ├── TimeSeries_Tutorial.ipynb # Full interactive tutorial
-│ ├── ARIMA_Prophet_LSTM_Examples.ipynb # Standalone demonstration files
-│
-├── docs/
-│ ├── TeachingDocument.docx # Full expanded teaching document
-│ ├── TeachingDocument.pdf # (optional) PDF version
-│
-├── figures/
-│ ├── ARIMA_diagram.png
-│ ├── Prophet_diagram.png
-│ ├── LSTM_diagram.png
-│
-├── data/
-│ ├── sp500_2020_2024.csv # Exported from yfinance (optional)
-│
-└── README.md
+├── notebook/  
+│   ├── TimeSeries_Tutorial.ipynb  
+│   ├── ARIMA_Prophet_LSTM_Examples.ipynb  
+│  
+├── docs/  
+│   ├── TeachingDocument.docx  
+│   ├── TeachingDocument.pdf  
+│  
+├── figures/  
+│   ├── ARIMA_diagram.png  
+│   ├── Prophet_diagram.png  
+│   ├── LSTM_diagram.png  
+│  
+├── data/  
+│   ├── sp500_2020_2024.csv  
+│  
+└── README.md  
 
----
+</details>
 
 ## 📊 Forecasting Models Covered
 

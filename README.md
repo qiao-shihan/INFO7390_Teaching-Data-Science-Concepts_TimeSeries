@@ -42,3 +42,49 @@ This module serves both as a **teaching resource** and a **technical demonstrati
 │ ├── sp500_2020_2024.csv # Exported from yfinance (optional)
 │
 └── README.md
+
+---
+
+## 📊 Forecasting Models Covered
+
+### **1. ARIMA**
+- Classical time-series model  
+- Requires stationarity and differencing  
+- Captures short-term autocorrelation  
+- Limitations: weak on strong trends or structural breaks  
+
+### **2. Prophet**
+- Trend + seasonality + holiday decomposition  
+- Piecewise linear trend with changepoint detection  
+- Robust to missing data and outliers  
+- Highly interpretable and industry-friendly  
+
+### **3. LSTM**
+- Neural network for sequence modeling  
+- Learns nonlinear dependencies  
+- Powerful but requires careful preprocessing  
+- Supports multi-step forecasting  
+
+---
+
+## 🖼 Illustrative Figures
+
+Below are conceptual diagrams auto-generated for this module:
+
+### **ARIMA – Conceptual Structure**
+![ARIMA](figures/ARIMA_diagram.png)
+
+### **Prophet – Trend & Seasonality Decomposition**
+![Prophet](figures/Prophet_diagram.png)
+
+### **LSTM – Memory Cell Structure**
+![LSTM](figures/LSTM_diagram.png)
+
+---
+
+## 🚀 Getting Started
+
+### **Install Dependencies**
+
+```bash
+pip install yfinance pandas numpy matplotlib statsmodels prophet tensorflow scikit-learn

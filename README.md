@@ -33,14 +33,6 @@ This module serves both as a **teaching resource** and a **technical demonstrati
 │   ├── TeachingDocument.docx  
 │   ├── TeachingDocument.pdf  
 │  
-├── figures/  
-│   ├── ARIMA_diagram.png  
-│   ├── Prophet_diagram.png  
-│   ├── LSTM_diagram.png  
-│  
-├── data/  
-│   ├── sp500_2020_2024.csv  
-│  
 └── README.md  
 
 </details>
